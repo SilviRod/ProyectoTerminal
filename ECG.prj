@@ -1,0 +1,94 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1339417548" file="/home/jos/Documents/Chvis/App/ECG.prj" location="/home/jos/Documents/Chvis/App" name="ECG" target="target.mlapps" target-name="Package App">
+    <param.appname>ECG</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>/tmp/tp5ff5f7a9_6c39_4ac1_8905_a5a275e13351.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>bb2664e3-2349-4292-a1b7-ab22db56155c</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/app1.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/app2.mlapp</file>
+      <file>${PROJECT_ROOT}/app3.mlapp</file>
+      <file>${PROJECT_ROOT}/app4.mlapp</file>
+      <file>${PROJECT_ROOT}/app5.mlapp</file>
+      <file>${PROJECT_ROOT}/app6.mlapp</file>
+      <file>${PROJECT_ROOT}/cargando.gif</file>
+      <file>${PROJECT_ROOT}/corazón.jpg</file>
+      <file>${PROJECT_ROOT}/logo-upiita.png</file>
+      <file>/home/jos/Documents/Chvis/Imágenes 2/V_Final/Usuarios.mat</file>
+      <file>/home/jos/Documents/Chvis/Imágenes 2/V_Final/svm.mat</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/home/jos/Documents/Chvis" name="App" optional="false">/home/jos/Documents/Chvis/App</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/usr/local/MATLAB/R2023a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>6.1.0-kali7-amd64</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
